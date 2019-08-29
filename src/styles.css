@@ -1,3 +1,19 @@
-h1 {
-    color:red;
+body {
+    margin-left: 10%;
+}
+
+.input-group {
+    width: 90%;
+}
+
+.tip-amount-percent {
+    display: block;
+}
+
+.card{
+    width: 90%;
+}
+
+.card-body .total-paid {
+    font-style: italic;
 }
