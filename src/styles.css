@@ -2,18 +2,23 @@ body {
     margin-left: 10%;
 }
 
+.btn-group {
+    margin-top: 15px;
+}
+
 .input-group {
     width: 90%;
 }
 
 .tip-amount-percent {
     display: block;
+    margin-bottom: 20px;
 }
 
 .card{
     width: 90%;
 }
 
-.card-body .total-paid {
+.total-paid {
     font-style: italic;
 }

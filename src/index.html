@@ -19,7 +19,7 @@
             <div class="input-group-prepend">
                 <div class="input-group-text" id="btnDollarSign">$</div>
             </div>
-            <input type="text" class="form-control" placeholder="$0.00" aria-label="Input group example" aria-describedby="btnTotalAmount">
+            <input type="number" class="form-control" id="amountPaid" placeholder="0.00" aria-label="Input group example" aria-describedby="btnTotalAmount">
         </div>
         <div class="btn-group" role="group" aria-label="Basic example">
             <button type="button" id="tipTen" class="btn btn-secondary">10%</button>
@@ -30,13 +30,13 @@
 
           <div class="card">
             <div class="card-body">
-              Bill Amount: $ <span id="billAmount"></span>
+              Bill Amount: $<span id="billAmount"></span>
             </div>
           </div>
 
           <div class="card">
             <div class="card-body">
-              Tip Percentage: <span id="tipPercent"></span>%
+              Tip Percentage: <span id="tipPercentTotal"></span>%
             </div>
           </div>
 
